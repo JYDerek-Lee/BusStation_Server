@@ -1,6 +1,29 @@
-﻿빌드 시작: 2015-10-17 오후 3:50:24
-     1>2 노드의 "D:\Git\MFC_BusStation\BusStation_Server\BusStation_Server.vcxproj" 프로젝트(Build 대상)입니다.
-     1>Link:
+﻿빌드 시작: 2015-10-27 오후 2:23:20
+     1>2 노드의 "D:\0.Git\MFC_BusStation\BusStation_Server\BusStation_Server.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         D:\1.Work\VS_P_2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/BusStation_Server.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\1.work\vs_p_2013\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\1.work\vs_p_2013\vc\atlmfc\include\afx.h(33) : 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\1.Work\VS_P_2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/BusStation_Server.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BusStation_Server.cpp BusStation_ServerDoc.cpp BusStation_ServerView.cpp MainFrm.cpp setPeopleDlg.cpp setSpeedDlg.cpp SetWeatherDlg1.cpp
+         SetWeatherDlg1.cpp
+         setSpeedDlg.cpp
+         setPeopleDlg.cpp
+         MainFrm.cpp
+         BusStation_ServerView.cpp
+     1>d:\0.git\mfc_busstation\busstation_server\busstation_serverview.cpp(372): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+     1>d:\0.git\mfc_busstation\busstation_server\busstation_serverview.cpp(375): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+     1>d:\0.git\mfc_busstation\busstation_server\busstation_serverview.cpp(417): warning C4101: 'message' :참조되지 않은 지역 변수입니다.
+     1>d:\0.git\mfc_busstation\busstation_server\busstation_serverview.cpp(510): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         BusStation_ServerDoc.cpp
+         BusStation_Server.cpp
+     1>d:\0.git\mfc_busstation\busstation_server\busstation_server.cpp(58): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 d:\1.work\vs_p_2013\vc\atlmfc\include\afxwin.h(5178) : 'CWinApp::Enable3dControls' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0412" /nologo /fo".\Debug\BusStation_Server.res" BusStation_Server.rc 
+       Link:
          D:\1.Work\VS_P_2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/BusStation_Server.exe" /INCREMENTAL /NOLOGO WS2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\1.Work\VS_P_2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:".\Debug/BusStation_Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\BusStation_Server.lib" /MACHINE:X86 /SAFESEH .\Debug\BusStation_Server.res
          .\Debug/BusStation_Server.obj
          .\Debug/BusStation_ServerDoc.obj
@@ -12,9 +35,9 @@
          .\Debug/StdAfx.obj
      1>BusStation_Server.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
      1>LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
-         BusStation_Server.vcxproj -> D:\Git\MFC_BusStation\BusStation_Server\.\Debug\BusStation_Server.exe
-     1>"D:\Git\MFC_BusStation\BusStation_Server\BusStation_Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         BusStation_Server.vcxproj -> D:\0.Git\MFC_BusStation\BusStation_Server\.\Debug\BusStation_Server.exe
+     1>"D:\0.Git\MFC_BusStation\BusStation_Server\BusStation_Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.66
+경과 시간: 00:00:11.67
